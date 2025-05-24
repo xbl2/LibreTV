@@ -1027,3 +1027,15 @@ body {
         font-size: 0.8rem;
     }
 }
+/* 隐藏“黄色内容过滤”开关相关内容 */
+.filter-description { display: none !important; }
+#yellowFilterToggle,
+#yellowFilterToggle + .toggle-bg,
+#yellowFilterToggle + .toggle-bg + .toggle-dot {
+  display: none !important;
+}
+
+/* 或直接隐藏整个块 */
+.flex.flex-col.mb-3.pb-3.border-b.border-\[\#222\].relative {
+  display: none !important;
+}
