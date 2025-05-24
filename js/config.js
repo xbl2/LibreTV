@@ -86,7 +86,7 @@ const API_SITES = {
         name: '魔都资源',
     },
     zuid: {
-        api: 'https://api.zuidapi.com/api.php/provide/vod',
+        api: 'https://',
         name: '最大资源'
     },
     yinghua: {
