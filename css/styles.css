@@ -1026,8 +1026,4 @@ body {
         max-height: 6rem;
         font-size: 0.8rem;
     }
-    /* src/styles.css */
-.p-3.bg-\[\#151515\].rounded-lg.shadow-inner {
-  display: none !important;
-}
 }
