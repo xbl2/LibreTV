@@ -435,5 +435,15 @@
 
     <!-- 添加弹窗和URL搜索参数处理脚本 -->
     <script src="js/index-page.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    var disclaimerBtn = document.getElementById('acceptDisclaimerBtn');
+    if (disclaimerBtn) {
+        disclaimerBtn.addEventListener('click', function() {
+            location.reload();
+        });
+    }
+});
+</script>
 </body>
 </html>
